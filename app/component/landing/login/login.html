@@ -17,17 +17,17 @@
     </div>
 
     <div
-    ng-class="{
-      'error': loginForm.password.$invalid && loginForm.$submitted,
-      'success': loginForm.password.$valid,
-    }">
-    <input type="password" name="password"
-      ng-disabled="loginForm.username.$invalid",
-      placeholder="password",
-      ng-minlength="8"
-      ng-model="longCtrl.user.password" required>
+      ng-class="{
+        'error': loginForm.password.$invalid && loginForm.$submitted,
+        'success': loginForm.password.$valid,
+      }">
+      <input type="password" name="password"
+        ng-disabled="loginForm.username.$invalid"
+        placeholder="password"
+        ng-minlength="3"
+        ng-model="loginCtrl.user.password" required>
     </div>
 
-    <button class="submit">sign in</button>
+    <button class="btn-std">sign in</button>
   </form>
 </section>

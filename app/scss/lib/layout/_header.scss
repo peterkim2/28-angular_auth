@@ -1,0 +1,12 @@
+@import "../theme/vars";
+
+header {
+  height: 7vw;
+  background: $brand-primary;
+
+  h1 {
+    text-align: left;
+    color: $white;
+    font-size: 4vw;
+  }
+}

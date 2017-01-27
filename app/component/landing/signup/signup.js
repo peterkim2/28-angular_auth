@@ -1,7 +1,5 @@
 'use strict';
 
-require('./_signup.scss');
-
 module.exports = {
   template: require('./signup.html'),
   controller: ['$log', '$location', 'authService', SignupController],
