@@ -27,6 +27,7 @@ button {
   border: none;
   border-radius: $btn-radius;
   cursor: pointer;
+  letter-spacing: 0.5px;
   transition: 350ms all;
 
   &:hover {
@@ -42,3 +43,10 @@ select {
 ul {
   margin-bottom: 10%;
 }
+
+input,
+  webkit-input-placeholder {
+  font-size: 15px;
+  line-height: 3;
+  padding-left: 10px;
+  }

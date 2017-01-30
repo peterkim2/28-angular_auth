@@ -1,11 +1,13 @@
 <section class="home">
   <create-gallery></create-gallery>
   <h2>galleries</h2>
-  <ul>
-    <li ng-repeat="gallery in homeCtrl.galleries">
-      <p>name:</p> <span>{{ gallery.name }}</span>
-      <p>description:</p> <span>{{ gallery.desc }}</span>
-      <p>id:</p> <span>{{ gallery._id }}</span>
-    </li>
-  </ul>
+  <div class="galleryScroll">
+    <ul>
+      <li ng-repeat="gallery in homeCtrl.galleries">
+        <p>name:</p> <span>{{ gallery.name }}</span>
+        <p>description:</p> <span>{{ gallery.desc }}</span>
+        <p>id:</p> <span>{{ gallery._id }}</span>
+      </li>
+    </ul>
+  </div>
 </section>
