@@ -5,6 +5,7 @@ html, body {
   height: 100%;
   font-family: $font-std;
   background: $brand-primary * 3;
+  font-weight: 200;
 }
 
 h1 {
@@ -19,7 +20,7 @@ h2 {
 }
 
 button {
-  padding: 1% 5%;
+  padding: 1% 0%;
   background: $btn-primary;
   color: $white;
   font-size: 2vw;

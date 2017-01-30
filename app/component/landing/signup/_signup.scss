@@ -1,11 +1,17 @@
 input {
   width: 100%;
-  margin-bottom: 2%;
-  font-size: 2vw;
+  margin-bottom: 5%;
+  font-size: 3vw;
+  border-radius: 2px;
 }
 
 .btn-std {
-  width: 10%;
+  width: 35%;
   float: right;
-  
+  min-height: 4em;
+
+}
+
+a {
+  text-decoration: none;
 }
