@@ -1,0 +1,29 @@
+@import "../scss/lib/theme/_vars.scss";
+
+.navbar {
+  background: $brand-primary;
+  margin: 0;
+  min-height: 3em;
+
+  img {
+    width: 7%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 1%;
+  }
+
+  h2 {
+    float: left;
+    margin-top: 3%;
+    margin-left: 1%;
+    color: $white;
+  }
+
+  .btn-std {
+    background: $brand-primary * 3;
+    width: 18%;
+    margin-top: 2%;
+    margin-right: 2%;
+    min-height: 27px;
+  }
+}

@@ -1,5 +1,8 @@
 'use strict';
 
+require('./_create-gallery.scss');
+
+
 module.exports = {
   template: require('./create-gallery.html'),
   controller: ['$log', 'galleryService', CreateGalleryController],

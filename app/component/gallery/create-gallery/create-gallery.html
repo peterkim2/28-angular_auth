@@ -1,16 +1,17 @@
 <section class="create-gallery">
+  <h2>create a new gallery</h2>
   <form name="createGalleryForm"
     class="gallery-form"
     ng-submit="createGalleryCtrl.createGallery()">
 
     <fieldset>
-      <label for="name">name</label>
-      <input name="name" class="input-std" type="text" ng-model="createGalleryCtrl.gallery.name" required>
+      <label for="name"></label>
+      <input name="name" class="input-std" type="text" placeholder="gallery name" ng-model="createGalleryCtrl.gallery.name" required>
     </fieldset>
 
     <fieldset>
-      <label name="desc">description</label>
-      <input name="desc" class="inpud-std" ng-model="createGalleryCtrl.gallery.desc" required>
+      <label for="desc"></label>
+      <input name="desc" class="input-std" placeholder="gallery description" ng-model="createGalleryCtrl.gallery.desc" required>
     </fieldset>
 
     <button class="btn-std" type="submit">create gallery</button>

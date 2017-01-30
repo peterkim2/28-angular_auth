@@ -1,0 +1,22 @@
+@import "../scss/lib/theme/_vars.scss";
+
+.home {
+  li {
+    background: $brand-secondary;
+    margin-top: 5%;
+    border-radius: 5px;
+  }
+
+  p {
+    float: left;
+    font-weight: 600;
+    margin-left: 4%;
+    padding-top: 2%;
+  }
+
+  span {
+    display: block;
+    padding-top: 2%;
+    padding-bottom: 4%;
+  }
+}

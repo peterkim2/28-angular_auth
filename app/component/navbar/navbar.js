@@ -1,9 +1,9 @@
 'use strict';
 
-require('._navbar.scss');
+require('./_navbar.scss');
 
 module.exports = {
-  template: require('.navbar.html'),
+  template: require('./navbar.html'),
   controller: ['$log', '$location', '$rootScope', 'authService', NavbarController],
   controllerAs: 'navbarCtrl'
 };
@@ -15,7 +15,7 @@ function NavbarController($log, $location, $rootScope, authService) {
     let path = $location.path();
     if (path === '/join') {
       this.hideButtons = true;
-    }
+    };
 
     if (path !== '/join') {
       this.hideButtons = false;
@@ -23,7 +23,7 @@ function NavbarController($log, $location, $rootScope, authService) {
       .catch( () => {
         $location.url('/join#login');
       });
-    }
+    };
   };
 
   this.checkPath();
@@ -40,4 +40,4 @@ function NavbarController($log, $location, $rootScope, authService) {
       $location.url('/');
     });
   };
-}
+};
