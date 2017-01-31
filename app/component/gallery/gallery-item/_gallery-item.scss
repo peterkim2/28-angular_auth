@@ -1,0 +1,44 @@
+@import "../scss/lib/theme/_vars.scss";
+
+.current-item {
+  .item-label {
+    float: left;
+    font-weight: 600;
+    margin-left: 4%;
+    padding-top: 2%;
+    padding-right: 2%;
+  }
+
+  span {
+    display: block;
+    padding-top: 2%;
+  }
+}
+
+.edit-btn {
+  width: 20%;
+  padding: 1% 0%;
+  float: right;
+  min-height: 3em;
+  background: $btn-primary;
+  color: $white;
+  font-size: 2vw;
+  border: none;
+  border-radius: $btn-radius;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  transition: 350ms all;
+  margin-right: 2%;
+  margin-top: 2%;
+
+  &:hover {
+    background: $brand-secondary;
+    color: $btn-primary;
+  }
+}
+
+.delete-btn {
+  @extend .edit-btn;
+  background: $brand-primary * 2;
+  margin-right: 0;
+}
