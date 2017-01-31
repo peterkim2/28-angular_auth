@@ -1,0 +1,56 @@
+@import "../scss/lib/theme/_vars.scss";
+
+.edit {
+  margin-top: 0%;
+}
+
+.edit-gallery {
+    background: $brand-secondary;
+    border-radius: 5px;
+    min-height: 5em;
+
+    .name-input {
+      background: $brand-primary * 3;
+      display: block;
+      width: 65%;
+      height: 1em;
+      border: solid 1px;
+      margin-top: 2.5%;
+      margin-right: 1%;
+      margin-bottom: 3%;
+      float: left;
+    }
+
+    .desc-input {
+      background: $brand-primary * 3;
+      display: block;
+      width: 65%;
+      height: 1em;
+      border: solid 1px;
+      margin-top: 0%;
+      margin-right: 1%;
+      float: left;
+    }
+
+    .item-label-name {
+      float: left;
+      font-weight: 600;
+      margin-left: 4%;
+      padding-top: 3%;
+      padding-right: 2%;
+    }
+    .item-label-desc {
+      float: left;
+      font-weight: 600;
+      margin-left: 4%;
+      padding-top: 0%;
+      padding-right: 2%;
+    }
+
+    button {
+      margin-top: 1%;
+      font-size: 2vw;
+      width: 20%;
+      min-height: 3em;
+    }
+}
