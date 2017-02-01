@@ -4,7 +4,7 @@ require('./_thumbnail-container.scss');
 
 module.exports = {
   template: require('./thumbnail-container.html'),
-  controllerAs: 'thumnailContainerCtrl',
+  controllerAs: 'thumbnailContainerCtrl',
   bindings: {
     gallery: '<'
   }
