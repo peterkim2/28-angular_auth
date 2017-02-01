@@ -1,0 +1,29 @@
+@import "../scss/lib/theme/_vars.scss";
+
+.upload-pic {
+
+  h3 {
+    text-decoration: underline;
+  }
+  fieldset {
+    margin-top: 3%;
+  }
+
+  .input-std {
+    padding-left: 0;
+    background: $brand-primary * 2;
+    color: $white;
+  }
+
+  div {
+    text-align: right;
+
+    .grab-img {
+      float: left;
+      margin-top: 1vw;
+      margin-right: $gutter-sm;
+      font-size: 2.5vw;
+      text-decoration: underline;
+    }
+  }
+}
