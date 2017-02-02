@@ -17,5 +17,9 @@
     "experimentalObjectRestSpread": true,
     "impliedStrict": true
   },
+  "globals": {
+    "angular": false,
+    "__API_URL__": false
+  },
   "extends": "eslint:recommended"
 }
