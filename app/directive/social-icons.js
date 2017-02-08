@@ -1,5 +1,7 @@
 'use strict';
 
+require('./_social-icons.scss');
+
 module.exports = function() {
   return {
     restrict: 'EAC',
@@ -8,7 +10,7 @@ module.exports = function() {
     bindToController: true,
     controllerAs: 'socialIconsCtrl',
     scope: {
-      tite: '@'
+      title: '@'
     }
   };
 };
