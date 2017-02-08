@@ -1,0 +1,17 @@
+@import "../scss/lib/theme/_vars.scss";
+
+.social-icon {
+  background: url('./assets/img/social-icons.png') no-repeat 0 0;
+  width: 24px;
+  height: 24px;
+  background-position: -24px;
+  display: inline-block;
+
+  &:nth-child(2) {
+    background-position: 0px;
+  }
+
+  &:last-child {
+    background-position: -48px;
+  }
+}
