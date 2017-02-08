@@ -1,15 +1,17 @@
 <section class="home">
   <create-gallery></create-gallery>
   <h2>galleries</h2>
+  <input ng-model="homeCtrl.gallerySearchTerm" type="text" placeholder="search">
   <div class="home-div">
     <ul>
-      <gallery-item ng-repeat="item in homeCtrl.galleries"
+      <gallery-item ng-repeat="item in homeCtrl.galleries | gallerySearch: homeCtrl.gallerySearchTerm"
         gallery="item"
         delete-done="homeCtrl.galleryDeleteDone(galleryData)"
-        ng-click="homeCtrl.currentGallery = item"></gallery-item>
+        ng-click="homeCtrl.currentGallery = item">
+      </gallery-item>
     </ul>
   </div>
-  
+
   <thumbnail-container ng-if="homeCtrl.currentGallery"
     gallery="homeCtrl.currentGallery"></thumbnail-container>
 </section>
