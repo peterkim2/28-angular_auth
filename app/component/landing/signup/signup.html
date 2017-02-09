@@ -8,17 +8,20 @@
         type="text"
         placeholder="username"
         ng-minlength="4"
+        uib-tooltip="Username Required"
         ng-model="signupCtrl.user.username" required>
 
       <input class="input-std"
         type="email"
         placeholder="email"
+        uib-tooltip="Email Required"
         ng-model="signupCtrl.user.email">
 
       <input class="input-std"
         type="password"
         placeholder="password"
         ng-minlength="3"
+        uib-tooltip="Password Required"
         ng-model="signupCtrl.user.password" required>
 
         <button class="btn-std">sign up</button>
