@@ -3,6 +3,8 @@
 .thumbnail {
   margin-top: $gutter-std * 2;
   height: 300px;
+  background-color: $brand-primary * 3;
+  border: 0px;
 
   img {
     width: 100%;

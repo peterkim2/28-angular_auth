@@ -12,4 +12,10 @@ a {
 .panel-default {
   margin-top: 5px;
   float: left;
+  border: 0px;
+  width: 100%;
+}
+
+.panel-title > a {
+  float: left;
 }
