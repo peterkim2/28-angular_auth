@@ -40,7 +40,7 @@ describe('Auth Service', function() {
         Authorization: `Basic ${base64}`,
       };
 
-      this.$httpBackend.expectGET('http://localhost:8000/api/login', headers)
+      this.$httpBackend.expectGET(`${__API_URL__}/api/login`, headers)
         .respond(200, 'test token');
 
       this.authService.login(user)
